@@ -1,0 +1,25 @@
+{
+  "name": "my-first-server",
+  "version": "1.0.0",
+  "description": "Primeiro projeto utilizando nodejs",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "app": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricksonSiqueira/my-first-server.git"
+  },
+  "author": "Erickson Siqueira da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EricksonSiqueira/my-first-server/issues"
+  },
+  "homepage": "https://github.com/EricksonSiqueira/my-first-server#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
