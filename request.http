@@ -1,0 +1,29 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+  "name": "cadeira ergonômica",
+  "price": "2500"
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/e5539aec-202f-45ac-9f5e-56c0c58f593c
+
+###
+
+PUT http://localhost:4002/products/2dc55d10-ae55-4484-94dd-6f7b017f9ee7
+content-type: application/json
+
+{
+  "name": "cadeira gamer",
+  "price": "1500"
+}
+
+###
+
+DELETE http://localhost:4002/products/cea58549-b1cf-484e-9926-773f24482e60
